@@ -27,6 +27,6 @@ variable "allowed_oam_resource_types" {
   default     = []
 }
 
-variable "link_account_name" {
-  type = string
+variable "link_account_names" {
+  type = list(string)
 }
